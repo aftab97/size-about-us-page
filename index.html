@@ -1,0 +1,288 @@
+<html>
+  <head>
+    <title>My Now Amazing Webpage</title>
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var network = [
+          "2000",
+          "2000",
+          "2005",
+          "2005",
+          "2010",
+          "2010",
+          "2010",
+          "2015",
+          "2015",
+          "2015",
+          "2015",
+          "2015",
+          "2015",
+          "2015",
+          "2015",
+          "2015",
+          "2015",
+          "2020"
+        ];
+
+        $(".multiple-items").slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 8000,
+          dots: true,
+          customPaging: function(slider, i) {
+            var name = network[i];
+            return (
+              '<div class="pager__item" id=' + name + "> " + name + " </div>"
+            );
+          },
+          useTransform: true,
+          cssEase: "ease-in-out"
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      document.querySelector(".picture3").innerHTML = "HELLO";
+    </script>
+
+    <link href="stylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- carousel -->
+    <div class="multiple-items">
+      <div>
+        <img
+          class="timeline-image 2000 picture1"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2000 picture2"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+
+      <!-- 2005 -->
+      <div>
+        <img
+          class="timeline-image 2005 picture3"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2005 picture4"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <!-- 2010 -->
+      <div>
+        <img
+          class="timeline-image 2010 picture5"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2010 picture6"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2010 picture7"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <!-- 2015 -->
+      <div>
+        <img
+          class="timeline-image 2015 picture8"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture9"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture10"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture11"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture12"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture13"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture14"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture15"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture16"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="timeline-image 2015 picture17"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <div class="timeline-caption">
+          <p class="timeline-caption-1">
+            <span class="timeline-caption-year">Year </span>Caption 1
+          </p>
+        </div>
+      </div>
+      <!-- 2020 -->
+      <div>
+          <img
+            class="timeline-image 2020 picture18"
+            onclick="popUp()"
+            src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+          />
+          <div class="timeline-caption">
+            <p class="timeline-caption-1">
+              <span class="timeline-caption-year">Year </span>Caption 1
+            </p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

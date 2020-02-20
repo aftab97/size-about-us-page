@@ -1,0 +1,67 @@
+
+
+/* timeline images styling */
+
+.slick-active .pager__item {
+    padding-right: 1vh;
+    
+    color: red;
+}
+
+.slick-dots li{
+    margin:0 20px;
+}
+
+
+
+
+
+.timeline-image{
+    padding-right: 8vh;
+}
+
+
+
+
+/* all the timeline numbers that need to remain hidden */
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(2){
+    display: none;
+}
+
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(4){
+    display: none;
+}
+
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(6){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(7){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(9){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(10){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(11){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(12){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(13){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(14){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(15){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(16){
+    display: none;
+}
+body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(17){
+    display: none;
+}
