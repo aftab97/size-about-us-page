@@ -1,4 +1,5 @@
-(document).ready(function() {
+$(document).ready(function() {
+  console.log("The app.js script has loaded - ");
 
   window.setInterval(function(){
     

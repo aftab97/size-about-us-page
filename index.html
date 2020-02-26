@@ -36,6 +36,8 @@
 
         $(".multiple-items").slick({
           infinite: true,
+          variableWidth: true,
+          variableHeight: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: false,
@@ -52,10 +54,26 @@
         });
       });
     </script>
-
     <script type="text/javascript">
-      document.querySelector(".picture3").innerHTML = "HELLO";
+      $(document).ready(function() {
+       
+        $(".bottom-multiple-items").slick({
+          infinite: true,
+          variableWidth: true,
+          variableHeight: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 6000,
+          dots: true,
+          useTransform: true,
+          cssEase: "ease-in-out"
+        });
+      });
     </script>
+
+    <script type="text/javascript" src="app.js"></script>
+
 
     <link href="stylesheet.css" rel="stylesheet" />
   </head>
@@ -284,5 +302,28 @@
           </div>
         </div>
     </div>
+
+
+
+    <div class="bottom-multiple-items">
+        <img
+          class="slideshow-item1"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <img
+          class="slideshow-item1"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+        <img
+          class="slideshow-item1"
+          onclick="popUp()"
+          src="https://i8.amplience.net/i/jpl/timeline-test-1-8ba3729159b0a3302db2c392cefef951"
+        />
+    </div>
+
+
+
   </body>
 </html>

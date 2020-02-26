@@ -13,15 +13,24 @@
 }
 
 
+.slick-slide
+{
+position: relative;
+top: 10vh;
+width: 800px;
+height: 600px;
 
-
-
-.timeline-image{
-    padding-right: 8vh;
 }
 
+.timeline-caption{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 4vh;
+    width: 70%;
+}
 
-
+.timeline-caption  span{
+    color: orange;
+}
 
 /* all the timeline numbers that need to remain hidden */
 body > div.multiple-items.slick-initialized.slick-slider.slick-dotted > ul > li:nth-child(2){
